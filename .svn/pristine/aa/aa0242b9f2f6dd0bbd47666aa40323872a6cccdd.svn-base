@@ -1,0 +1,50 @@
+﻿Imports CopyProtectSoftware
+
+Public Class FrmCustomActivate
+
+    Private Sub btnRequestActivation_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnRequestActivation.Click
+
+        'Some simple validation
+        If String.IsNullOrEmpty(txtEmail.Text) Then
+            MessageBox.Show("Please enter the email address from your license email")
+            Return
+        End If
+
+        If String.IsNullOrEmpty(txtFullName.Text) Then
+            MessageBox.Show("Please enter your full name")
+            Return
+        End If
+
+        If String.IsNullOrEmpty(txtTransactionID.Text) Then
+            MessageBox.Show("Please paste the activation code from your license email")
+            Return
+        End If
+
+        Dim cpsService = New CpsService
+        Dim cpsServiceResult = New CpsServiceResult
+
+        lblMessage.Text = "Contacting license server......"
+        cpsServiceResult = cpsService.Activate(txtEmail.Text.Trim, txtTransactionID.Text.Trim, txtFullName.Text.Trim)
+        lblMessage.Text = cpsServiceResult.Description
+
+        'cpsServiceResult.Result = True
+        If cpsServiceResult.Result Then
+            'Activated
+            btnRequestActivation.Enabled = False
+        Else
+            'Activation issue
+            btnRequestActivation.Enabled = True
+        End If
+
+    End Sub
+
+    Private Sub btnClose_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnClose.Click
+
+    End Sub
+
+    Private Sub FrmCustomActivate_Load(sender As Object, e As EventArgs) Handles Me.Load
+        Me.txtFullName.Text = "THAN THANH THUAN"
+        Me.txtEmail.Text = "sangxuan1406@gmail.com"
+        Me.txtTransactionID.Text = "kduierukdf"
+    End Sub
+End Class

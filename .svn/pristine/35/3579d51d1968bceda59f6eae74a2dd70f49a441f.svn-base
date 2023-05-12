@@ -1,0 +1,166 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class FrmCustomActivate
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FrmCustomActivate))
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.txtFullName = New System.Windows.Forms.TextBox()
+        Me.txtEmail = New System.Windows.Forms.TextBox()
+        Me.txtTransactionID = New System.Windows.Forms.TextBox()
+        Me.btnRequestActivation = New System.Windows.Forms.Button()
+        Me.lblMessage = New System.Windows.Forms.Label()
+        Me.lblContent = New System.Windows.Forms.Label()
+        Me.btnClose = New System.Windows.Forms.Button()
+        Me.SuspendLayout()
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(13, 13)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(45, 16)
+        Me.Label1.TabIndex = 0
+        Me.Label1.Text = "Name"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(13, 75)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(170, 16)
+        Me.Label2.TabIndex = 1
+        Me.Label2.Text = "Email address from license"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(16, 133)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(102, 16)
+        Me.Label3.TabIndex = 2
+        Me.Label3.Text = "Activation Code"
+        '
+        'txtFullName
+        '
+        Me.txtFullName.Location = New System.Drawing.Point(16, 32)
+        Me.txtFullName.Name = "txtFullName"
+        Me.txtFullName.Size = New System.Drawing.Size(379, 20)
+        Me.txtFullName.TabIndex = 3
+        '
+        'txtEmail
+        '
+        Me.txtEmail.Location = New System.Drawing.Point(16, 94)
+        Me.txtEmail.Name = "txtEmail"
+        Me.txtEmail.Size = New System.Drawing.Size(379, 20)
+        Me.txtEmail.TabIndex = 4
+        '
+        'txtTransactionID
+        '
+        Me.txtTransactionID.Location = New System.Drawing.Point(19, 152)
+        Me.txtTransactionID.Name = "txtTransactionID"
+        Me.txtTransactionID.Size = New System.Drawing.Size(379, 20)
+        Me.txtTransactionID.TabIndex = 5
+        '
+        'btnRequestActivation
+        '
+        Me.btnRequestActivation.BackColor = System.Drawing.SystemColors.GradientInactiveCaption
+        Me.btnRequestActivation.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnRequestActivation.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnRequestActivation.Location = New System.Drawing.Point(268, 189)
+        Me.btnRequestActivation.Name = "btnRequestActivation"
+        Me.btnRequestActivation.Size = New System.Drawing.Size(130, 32)
+        Me.btnRequestActivation.TabIndex = 6
+        Me.btnRequestActivation.Text = "Request Activation"
+        Me.btnRequestActivation.UseVisualStyleBackColor = False
+        '
+        'lblMessage
+        '
+        Me.lblMessage.AutoSize = True
+        Me.lblMessage.Location = New System.Drawing.Point(16, 199)
+        Me.lblMessage.Name = "lblMessage"
+        Me.lblMessage.Size = New System.Drawing.Size(149, 13)
+        Me.lblMessage.TabIndex = 37
+        Me.lblMessage.Text = "Enter your details and click >>"
+        '
+        'lblContent
+        '
+        Me.lblContent.AutoSize = True
+        Me.lblContent.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblContent.Location = New System.Drawing.Point(16, 236)
+        Me.lblContent.Name = "lblContent"
+        Me.lblContent.Size = New System.Drawing.Size(388, 150)
+        Me.lblContent.TabIndex = 38
+        Me.lblContent.Text = resources.GetString("lblContent.Text")
+        '
+        'btnClose
+        '
+        Me.btnClose.BackColor = System.Drawing.SystemColors.GradientInactiveCaption
+        Me.btnClose.DialogResult = System.Windows.Forms.DialogResult.Cancel
+        Me.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnClose.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnClose.Location = New System.Drawing.Point(265, 388)
+        Me.btnClose.Name = "btnClose"
+        Me.btnClose.Size = New System.Drawing.Size(130, 32)
+        Me.btnClose.TabIndex = 39
+        Me.btnClose.Text = "Close"
+        Me.btnClose.UseVisualStyleBackColor = False
+        '
+        'FrmCustomActivate
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(407, 432)
+        Me.ControlBox = False
+        Me.Controls.Add(Me.btnClose)
+        Me.Controls.Add(Me.lblContent)
+        Me.Controls.Add(Me.lblMessage)
+        Me.Controls.Add(Me.btnRequestActivation)
+        Me.Controls.Add(Me.txtTransactionID)
+        Me.Controls.Add(Me.txtEmail)
+        Me.Controls.Add(Me.txtFullName)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.Label1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.Name = "FrmCustomActivate"
+        Me.Text = "Custom Activation Form"
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
+    End Sub
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents txtFullName As System.Windows.Forms.TextBox
+    Friend WithEvents txtEmail As System.Windows.Forms.TextBox
+    Friend WithEvents txtTransactionID As System.Windows.Forms.TextBox
+    Friend WithEvents btnRequestActivation As System.Windows.Forms.Button
+    Private WithEvents lblMessage As System.Windows.Forms.Label
+    Private WithEvents lblContent As System.Windows.Forms.Label
+    Friend WithEvents btnClose As System.Windows.Forms.Button
+End Class

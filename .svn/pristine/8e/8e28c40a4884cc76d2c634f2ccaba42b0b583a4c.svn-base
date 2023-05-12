@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="spinjutsu.My.MySettings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <startup useLegacyV2RuntimeActivationPolicy="true">
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.6" />
+    </startup>
+  <runtime>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="System.Net.Http" publicKeyToken="b03f5f7f11d50a3a" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-4.1.1.0" newVersion="4.1.1.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+  </runtime>
+  <userSettings>
+    <spinjutsu.My.MySettings>
+      <setting name="statictextdefault" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="catmain" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="catsub" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="minwords" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="linktargets" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="linktext" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="linkplacement" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="batchformattingidentical" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="subheadingstyle" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="iframepics" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="subheadings" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="curatedcontent" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="links" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="statictext" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="metadata" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="selectedproject" serializeAs="String">
+        <value>Default</value>
+      </setting>
+      <setting name="googledrivefolder" serializeAs="String">
+        <value>TESTFOLDER01</value>
+      </setting>
+      <setting name="AWSAccessKeyID" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="AWSSecretAccessKey" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="AWSBucket" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="AWSFolder" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="defaultbrowser" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="browseoprofile" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="rssauthor" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="rssdomain" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="gpslatitude" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="gpslongitude" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="batchfiletype" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="mainblogURL" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="abcatmain" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="abcatsub" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="abtopic" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="statictextrandom" serializeAs="String">
+        <value>false</value>
+      </setting>
+      <setting name="catmainrandom" serializeAs="String">
+        <value>false</value>
+      </setting>
+      <setting name="catsubrandom" serializeAs="String">
+        <value>false</value>
+      </setting>
+    </spinjutsu.My.MySettings>
+  </userSettings>
+</configuration>

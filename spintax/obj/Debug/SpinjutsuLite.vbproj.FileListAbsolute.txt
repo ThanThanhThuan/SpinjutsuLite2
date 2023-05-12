@@ -1,0 +1,16 @@
+G:\SpinjutsuLite\spintax\bin\Debug\SpinjutsuLite.exe.config
+G:\SpinjutsuLite\spintax\bin\Debug\SpinjutsuLite.exe
+G:\SpinjutsuLite\spintax\bin\Debug\SpinjutsuLite.pdb
+G:\SpinjutsuLite\spintax\bin\Debug\SpinjutsuLite.xml
+G:\SpinjutsuLite\spintax\obj\Debug\spinjutsu.Resources.resources
+G:\SpinjutsuLite\spintax\obj\Debug\spinjutsu.SpinForm.resources
+G:\SpinjutsuLite\spintax\obj\Debug\SpinjutsuLite.vbproj.GenerateResource.Cache
+G:\SpinjutsuLite\spintax\obj\Debug\SpinjutsuLite.vbproj.CoreCompileInputs.cache
+G:\SpinjutsuLite\spintax\obj\Debug\SpinjutsuLite.exe
+G:\SpinjutsuLite\spintax\obj\Debug\SpinjutsuLite.xml
+G:\SpinjutsuLite\spintax\obj\Debug\SpinjutsuLite.pdb
+G:\SpinjutsuLite\spintax\obj\Debug\SpinjutsuLite.vbprojResolveAssemblyReference.cache
+G:\SpinjutsuLite\spintax\obj\Debug\spinjutsu.frmAboutBox.resources
+G:\SpinjutsuLite\spintax\obj\Debug\spinjutsu.FrmCustomActivate.resources
+G:\SpinjutsuLite\spintax\bin\Debug\CopyProtectSoftware.dll
+G:\SpinjutsuLite\spintax\obj\Debug\SpinjutsuLite.vbproj.CopyComplete
